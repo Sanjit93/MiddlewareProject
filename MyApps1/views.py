@@ -13,7 +13,7 @@ from django.http import HttpResponse
 # Create your views here.
 def home_page_view2(request):
 	print(10/0)
-	return HttpResponse('<h1>Hello This is from home page view</h1><hr />')
+	return HttpResponse('<h1>#Hello This is from home page view#</h1><hr />')
 
 
 def home_page_view3(request):
